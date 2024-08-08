@@ -1,0 +1,101 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Satisfy", cursive, "Slabo 27px", serif;
+
+}
+
+.home-page {
+  font-size: 1.25rem;
+  padding-right: 900px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.login-button {
+  border: none;
+  background-color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 17px;
+  padding-right: 10px;
+
+}
+
+.login-button:hover {
+  color: rgb(121, 24, 24);
+  transition: .3s ease-in-out;
+  cursor: pointer;
+
+}
+
+
+.top-section h1 {
+  font-weight: 100;
+  font-size: 4rem;
+  padding-left: 300;
+  padding-top: 30;
+  margin-bottom: 0;
+  max-width: 1066px;
+
+}
+
+.top-section p {
+  padding-left: 700;
+  padding-top: 0;
+  padding-bottom: 30;
+}
+
+.sections button p {
+  text-decoration: none;
+  color: black;
+}
+
+.sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 80px;
+  margin: 20px 50px 20px 50px;
+  padding-left: 105px;
+  padding-right: 105px;
+}
+
+.sections button {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  background-color: rgba(224, 224, 224, 0);
+  border: 2px solid;
+  color: rgb(161, 15, 15);
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.sections p {
+  text-decoration: none;
+}
+
+.info-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 160px;
+  padding-left: 190px;
+}
+
+* {
+  box-sizing: border-box
+}
