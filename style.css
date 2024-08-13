@@ -78,11 +78,12 @@ body {
   width: 200px;
   height: 100%;
   bottom: 0;
-  top: -70;
+  top: 40;
   z-index: 20;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: absolute;
+
 }
 
 .page-navigator button {
@@ -101,6 +102,8 @@ body {
   padding-right: 30;
   margin-top: 10;
   position: relative;
+
+
 }
 
 .page-navigator button:hover {
@@ -129,9 +132,95 @@ body {
 }
 
 
+.flower-cards {
+  padding-left: 240px;
+  z-index: 10;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 30px;
+  column-gap: 45px;
+  padding-bottom: 100px;
+}
+
+.one-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: 1px solid;
+  padding: 20px;
+  padding-left: 50;
+  padding-right: 50;
+  z-index: 10;
+  position: relative;
+  max-width: 180px;
+  max-height: 460px;
+  margin: 0 auto;
+}
+
+.one-card h3 {
+  margin: 12;
+  text-align: center;
+
+}
+
+.card-image img {
+  object-fit: cover;
+  max-width: 250px;
+  max-height: 300px;
+  min-width: 250px;
+  min-height: 300px;
+  margin: 20 -36 10;
+  border: 1px solid #000000;
+
+}
+
+.price {
+  margin: 0 auto;
+}
+
+.send-flowers {
+  font-size: 1rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-top: auto;
+  box-sizing: border-box;
+  width: 250;
+  padding: 13;
+}
 
 
-.link {
+.send-flowers:hover {
+  cursor: pointer;
+  border-style: double;
+  transition: .1s ease-in-out;
+  background: none;
+}
+
+.favourite {
+  font-size: 1rem;
+  color: #130101;
+  border: none;
+  background: none;
+
+  position: relative;
+
+
+}
+
+.favourite:hover {
+  cursor: pointer;
+  border-style: double;
+  transition: .1s ease-in-out;
+  background: none;
+
+}
+
+*/ .link {
   text-decoration: none;
 }
 
