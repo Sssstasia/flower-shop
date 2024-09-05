@@ -20,7 +20,7 @@ async function cardsArea() {
         else {
             card.photo = `https://res.cloudinary.com/dgon7d8qp/image/upload/w_330,h_392,c_fill/${card.photo}.jpg`
         }
-        clone.querySelector(".card-image img").src = pet.photo
+        clone.querySelector(".card-image img").src = card.photo
         clone.querySelector(".card-image img").alt = ` A ${card.color} flower.`
         wrapper.appendChild(clone)
     })
@@ -28,4 +28,4 @@ async function cardsArea() {
 }
 
 
-
+cardsArea()
