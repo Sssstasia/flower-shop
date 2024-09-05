@@ -134,7 +134,9 @@ body {
 }
 
 
+
 .flower-cards {
+  padding-top: 50;
   padding-left: 240px;
   z-index: 10;
   position: relative;
@@ -231,6 +233,7 @@ body {
 }
 
 .info-page {
+
   z-index: 7;
   position: relative;
   display: grid;
@@ -238,6 +241,7 @@ body {
   column-gap: 200px;
   padding-right: 0;
   padding-left: 220px;
+  padding-bottom: 50px;
 }
 
 .info-photo {
@@ -280,6 +284,7 @@ body {
   filter: blur(150px);
   position: absolute;
   top: 670px;
+  right: 300px;
   backface-visibility: hidden;
   perspective: 1000;
   transform: translate3d(0, 0, 0);
